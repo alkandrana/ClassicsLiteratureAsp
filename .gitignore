@@ -1,0 +1,8 @@
+**/.idea/
+
+# .NET:
+bin/
+obj/
+
+# Credentials
+appsettings.Development.json

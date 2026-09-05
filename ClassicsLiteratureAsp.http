@@ -1,0 +1,6 @@
+@ClassicsLiteratureAsp_HostAddress = http://localhost:5225
+
+GET {{ClassicsLiteratureAsp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
