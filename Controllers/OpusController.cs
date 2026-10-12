@@ -39,6 +39,10 @@ public class OpusController : Controller
             .Include(p => p.Author)
             .Where(p => p.Code == code)
             .ToListAsync();
+        if (opus.Count == 0)
+        {
+            return NotFound();
+        }
 
         return Ok(opus);
     }
